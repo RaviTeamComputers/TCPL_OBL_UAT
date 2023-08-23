@@ -1111,7 +1111,7 @@ DetailedGSTEntryBuffer.NEXT = 0;
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            // CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text007 + Text008
