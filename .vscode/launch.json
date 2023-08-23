@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "localhost",
+            "request": "launch",
+            "type": "al",
+            "server": "http://localhost:8080/OBLLocal",
+            "serverInstance": "OBLLocal",
+            "authentication": "Windows",
+            "port": 5003,
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            //"tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync",
+            "disableHttpRequestTimeout": true   
+        }
+    ]
+}
